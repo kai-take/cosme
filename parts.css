@@ -1,0 +1,29 @@
+
+
+
+.price_wrap ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: column;
+    width: 324px;
+    /* height: 230px; */
+    background-color: #ff9;
+}
+
+.price_wrap ul li{
+    font-family: "YuGothic";
+    color: #000000;
+    display: inline-block;
+    border-bottom: dashed 1px #707070;
+    line-height: 3;
+}
+
+.price_wrap ul li:last-child{
+    border-bottom: none;
+}
+
+.price_wrap ul li span{
+    margin-right: 155px;
+}
+
+
