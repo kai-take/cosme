@@ -107,7 +107,6 @@ input, select {
     overflow: hidden;
 }
 
-
 /*---------------------------------
  Fonts
 ---------------------------------*/
@@ -119,7 +118,6 @@ input, select {
 .date,.general,.specific{
     font-weight: bold;
 }
-
 
 h2.border{
     font-size: 48px;
@@ -149,6 +147,7 @@ p.sentence{
     width: 69px;
     height: 5px;
 }
+
 /*---------------------------------
 
   header
@@ -202,7 +201,6 @@ header p.maintitle{
     top:44%;
     left:10%;
     line-height: 1;
-
 }
 
 header p.subtitle{
@@ -304,7 +302,6 @@ main div.about_flex{
 
 main .about_img{
     display:block;
-    /* margin-left: 92px; */
 }
 
 /*---------------------------------
@@ -350,12 +347,9 @@ ul.item li p.specific{
     margin-bottom: 32px;
 }
 
-
-
 /*---------------------------------
   Price
 ---------------------------------*/
-
 .price_wrap{
     position: relative;
     width: 100%;
@@ -544,7 +538,6 @@ p.blog{
 .root .sentence span{
     margin-right: 27px;
 }
-
 
 /*---------------------------------
 
