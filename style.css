@@ -216,7 +216,6 @@ header p.subtitle{
 }
 
 /* -----header nav -------*/
-
 header ul.flex{
     width: 500px;
     display: flex;
@@ -258,7 +257,6 @@ nav .li.border::after{
 /*---------------------------------
   About
 ---------------------------------*/
-
 main div.about_flex{
     display: flex;
     align-items: center;
@@ -528,13 +526,11 @@ p.blog{
     margin-bottom: 32px; 
 }
 
-
 .root .sentence{
     word-wrap: break-word;
     letter-spacing: 0.05em;
     line-height: 1.5;
 }
-
 .root .sentence span{
     margin-right: 27px;
 }
@@ -549,7 +545,6 @@ footer.footer{
     padding-top:83px;
     padding-bottom: 84px; 
 }
-
 footer .footer_logo{
     font-family: "Montserrat";
     color: white;
