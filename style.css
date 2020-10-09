@@ -244,6 +244,16 @@ nav .li.border::after{
     margin-top: 5px;
 }
 
+/*
+表示崩れ防止
+———————————*/
+@media (max-width:1024px) {
+    header ul.flex{
+        width: 49.9%;
+        min-width: 320px;
+    }
+}
+
 /*---------------------------------
 
   main
@@ -301,6 +311,27 @@ main div.about_flex{
 main .about_img{
     display:block;
 }
+/*
+表示崩れ防止
+———————————*/
+@media (max-width:1024px) {
+    .main {
+        width: 83.6%;
+    }
+    .about_box {
+        width: 41.5%;
+    }
+    .about_box center {
+        width: 73.2%;
+    }
+    .about_img {
+        width: 52.9%;
+    }
+    .about_img > img {
+        display: block;
+        width: 100%;
+    }
+}
 
 /*---------------------------------
   Item
@@ -320,29 +351,53 @@ main .about_img{
     margin-bottom: 40px;
 }
 
-ul.item{
+.item{
     display: flex;
     justify-content:space-between;
 }
 
-ul.item .li{
+.item .li{
     margin: 0;
     list-style-type: none;
 }
 
-ul.item .item_img{
+.item .item_img{
     margin-bottom: 39px;
     display: block;
 }
 
-ul.item li p.general{
+.item li p.general{
     font-size: 16px; 
     margin-bottom: 12px;
 }
 
-ul.item li p.specific{
+.item li p.specific{
     font-size: 24px;
     margin-bottom: 32px;
+}
+/*
+表示崩れ防止
+———————————*/
+@media (max-width:1024px) {
+    .Item{
+        margin-bottom: 352px;
+    }
+    .Item .border::after{
+        width: 69px;
+        height: 5px;
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+    .item li {
+        width: 30%;
+    }
+    .item_img {
+    }
+    .item_img > img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
 }
 
 /*---------------------------------
@@ -386,6 +441,7 @@ ul.item li p.specific{
 .table{
     border-collapse:separate;
     max-height: 230.6px;
+    margin-bottom: 70px;
 }
 
 .td{
@@ -403,12 +459,30 @@ td.none{
     padding-bottom:0;
 }
 
-.price_wrap .img{
+.price_img{
     display:block;
     position: absolute;
     top: 93px;
     left: 340px;
     z-index: -1;
+}
+/*
+表示崩れ防止
+———————————*/
+@media (max-width:1024px) {
+    .price_wrap .box {
+        width: 59.7%;
+        margin: auto;
+    }
+    .price_img {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 160%;
+    }
+    .price_img > img {
+        display: block;
+        width: 100%;
+    }
 }
 
 /*---------------------------------
@@ -456,7 +530,23 @@ p.blog{
     margin-left: 7px;
     font-size: 16px;
 }
-
+/*
+表示崩れ防止
+———————————*/
+@media (max-width:1024px) {
+    .blog_list {
+        justify-content: space-between;
+    }
+    .blog_list li {
+        width: 30%;
+        margin-right: 0;
+    }
+    .blog_img > img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
 /*---------------------------------
   Access
 ---------------------------------*/
@@ -534,6 +624,30 @@ p.blog{
 .root .sentence span{
     margin-right: 27px;
 }
+
+/*
+表示崩れ防止
+———————————*/
+@media (max-width:1024px) {
+    .address {
+        width: 30%;
+    }
+    .borderline {
+        width: 63%;
+    }
+    
+    .access .map {
+        width: 100%;
+    }
+    
+    .root {
+        width: 74.8%;
+    }
+    
+}
+
+
+
 
 /*---------------------------------
 
