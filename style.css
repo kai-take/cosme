@@ -255,11 +255,9 @@ nav .li.border::after{
 }
 
 /*---------------------------------
-
-  main
-
+  container
 ---------------------------------*/
-.main{
+.container{
     width:1004px;
     margin: 0 auto;
 }    
@@ -315,7 +313,7 @@ main .about_img{
 表示崩れ防止
 ———————————*/
 @media (max-width:1024px) {
-    .main {
+    .container {
         width: 83.6%;
     }
     .about_box {
