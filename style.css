@@ -321,7 +321,7 @@ main .about_img{
     .about_box {
         width: 41.5%;
     }
-    .about_box center {
+    .about_box .center {
         width: 73.2%;
     }
     .about_img {
@@ -350,11 +350,10 @@ main .about_img{
         width: 305px;
     }
     .about_img {
-        width: 80%;
-        margin: auto;
-    }
-    main .about_img{
         display:block;
+        width: 80%;
+        min-width: 410px;
+        margin: auto;
     }
 }
 
