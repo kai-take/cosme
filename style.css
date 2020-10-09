@@ -332,6 +332,31 @@ main .about_img{
         width: 100%;
     }
 }
+/*
+表示崩れ防止
+———————————*/
+@media (max-width:720px) {
+    main div.about_flex{
+        display: block;
+    }
+    
+    /*------box-----*/
+    .about_box{
+        width: 418px;
+        margin: 0 auto 50px;
+    }
+
+    .about_box .center{
+        width: 305px;
+    }
+    .about_img {
+        width: 80%;
+        margin: auto;
+    }
+    main .about_img{
+        display:block;
+    }
+}
 
 /*---------------------------------
   Item
@@ -472,6 +497,7 @@ td.none{
 @media (max-width:1024px) {
     .price_wrap .box {
         width: 59.7%;
+        min-width: 340px;
         margin: auto;
     }
     .price_img {
@@ -482,6 +508,24 @@ td.none{
     .price_img > img {
         display: block;
         width: 100%;
+    }
+    .table {
+        width: 90%;
+        margin: 0 auto 70px;
+    }
+    tr {
+        display: flex;
+        justify-content: space-between;
+        border-bottom:dashed 1px #707070;
+    }
+    tr:last-child {
+        border: none;
+    }
+    .td{
+        border-bottom:none;
+    }
+    td.padding{
+        padding-right: 0;
     }
 }
 
