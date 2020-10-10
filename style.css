@@ -512,10 +512,6 @@ td.none{
     }
     tr {
         display: flex;
-        -ms-flex-pack: space-between;
-        -webkit-box-pack: justify;
-        -webkit-justify-content: space-between;
-        justify-content: space-between;
         border-bottom:dashed 1px #707070;
     }
     tr:last-child {
@@ -525,7 +521,7 @@ td.none{
         border-bottom:none;
     }
     td.padding{
-        padding-right: 0;
+        padding-right: 100px;
     }
 }
 
