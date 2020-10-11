@@ -509,6 +509,7 @@ tr:last-child td{
     }
     tr {
         display: flex;
+        justify-content: space-between;
         border-bottom:dashed 1px #707070;
     }
     tr:last-child {
